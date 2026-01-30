@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskunary4d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-mskunary4d/tags). For example,
+
+```javascript
 import mskunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskunary4d@v0.1.0-deno/mod.js';
 ```
 
@@ -101,7 +106,7 @@ var bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bern
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@deno/mod.js';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@deno/mod.js';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import mskunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskunary4d@v0.1.0-deno/mod.js';
+import mskunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskunary4d@deno/mod.js';
 
 var shape = [ 2, 3, 3, 3 ];
 
